@@ -1,3 +1,4 @@
+/* General Styling */
 * {
 	box-sizing: border-box;
 }
@@ -6,6 +7,15 @@
 	float: left;
 	padding: 15px;
 	border: 1px solid red;
+	width: 100%;
+}
+
+#heading{
+	background-color: #999999;
+}
+
+#nav{
+	padding: 0px;
 }
 
 .row::after {
@@ -14,9 +24,69 @@
 	display: table;
 }
 
-/* Mobile Sizing */
-[class*="col-"]{
-	width: 100%;
+#name{
+	float: left;
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+#icon {
+	float: right;
+}
+
+footer{
+	text-align: center;
+	opacity: 0.7;
+}
+
+/* Styling the mobile dropdown menu */
+ul.navBar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul.navBar li a {
+	color: #000000;
+	text-decoration: none;
+	padding: 10px 0;
+	background-color: #999999;
+}
+
+ul.navBar li{
+	display: none;
+}
+/* Styling the animated menu icon */
+.bar1, .bar2, .bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #000000;
+	transition: 0.5s;
+	margin: 6px 0;
+}
+
+.animate .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.animate .bar2 {
+	opacity: 0;
+}
+
+.animate .bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
+}
+
+ul.navBar.responsive li {
+	display: inline;
+}
+
+ul.navBar.responsive li a {
+	display: block;
+	text-align: center;
 }
 
 /* Tablet Sizing */
