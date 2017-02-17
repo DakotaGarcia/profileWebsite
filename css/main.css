@@ -6,12 +6,11 @@
 [class*="col-"] {
 	float: left;
 	padding: 15px;
-	border: 1px solid red;
 	width: 100%;
 }
 
-#heading{
-	background-color: #999999;
+#heading {
+	background-color: #000000;
 }
 
 #nav{
@@ -26,8 +25,10 @@
 
 #name{
 	float: left;
-	font-size: 20px;
-	padding-top: 5px;
+	font-size: 1.5em;
+	font-family: "Tahoma";
+	padding-top: 0.11em;
+	color: #ffffff;
 }
 
 #icon {
@@ -35,6 +36,8 @@
 }
 
 footer{
+	font-family: "Tahoma";
+	font-size: 0.8em;
 	text-align: center;
 	opacity: 0.7;
 }
@@ -42,16 +45,17 @@ footer{
 /* Styling the mobile dropdown menu */
 ul.navBar {
 	list-style-type: none;
+	background-color: #000000;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
 
 ul.navBar li a {
-	color: #000000;
+	color: #ffffff;
+	font-family: "Tahoma";
 	text-decoration: none;
 	padding: 10px 0;
-	background-color: #999999;
 }
 
 ul.navBar li{
@@ -61,7 +65,7 @@ ul.navBar li{
 .bar1, .bar2, .bar3 {
 	width: 35px;
 	height: 5px;
-	background-color: #000000;
+	background-color: #ffffff;
 	transition: 0.5s;
 	margin: 6px 0;
 }
@@ -87,6 +91,33 @@ ul.navBar.responsive li {
 ul.navBar.responsive li a {
 	display: block;
 	text-align: center;
+}
+
+#profile {
+	display: block;
+	margin: auto;
+	max-width: 50%;
+	height: auto;
+	border: 4px solid black;
+	border-radius: 50%
+}
+
+#bio {
+	text-align: center;
+	font-family: "Tahoma";
+}
+
+#socialContainer {
+	margin: auto;
+	width: 50%;
+}
+
+#social img{
+	display: inline-block;
+	float: left;
+	margin: 0 10%;
+	max-width: 13%;
+	height: auto;
 }
 
 /* Tablet Sizing */
