@@ -46,7 +46,7 @@ footer {
 ul.navBar {
 	list-style-type: none;
 	background-color: #d1d6d6;
-	margin: 0 0 5% 0;
+	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
@@ -97,21 +97,8 @@ ul.navBar.responsive li a {
 	text-align: center;
 }
 
-/* Styling for the profile photo */
-#profile {
-	display: block;
-	margin: auto;
-	max-width: 50%;
-	height: auto;
-	border: 4px solid black;
-	border-radius: 50%
-}
-
-
-/* Styling for the Bio Paragraph */
-#bio {
-	text-align: center;
-	font-family: "Tahoma";
+/*Styling for the Contact Parapragh*/
+#contactInfo p{
 }
 
 /*Styling for the Scial Media Icons */
