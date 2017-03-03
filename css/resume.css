@@ -97,9 +97,11 @@ ul.navBar.responsive li a {
 	text-align: center;
 }
 
-/*Styling for the Contact Parapragh*/
-#contactInfo p{
-	font-size: 1.5em;
+/*Styling for the PDF*/
+#resumePDF object {
+	border: 1px solid red;
+	width: 100%;
+	height: 23em;
 }
 
 /*Styling for the Social Media Icons */
